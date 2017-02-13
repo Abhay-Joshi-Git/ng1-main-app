@@ -1,0 +1,32 @@
+{
+  "name": "main-app",
+  "version": "1.0.0",
+  "description": "main app of modular app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhay-Joshi-Git/ng1-main-app.git"
+  },
+  "keywords": [
+    "main-app"
+  ],
+  "author": "Abhayj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhay-Joshi-Git/ng1-main-app/issues"
+  },
+  "homepage": "https://github.com/Abhay-Joshi-Git/ng1-main-app#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-angular-templates": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2",
+    "serve-static": "^1.11.2"    
+  }
+}

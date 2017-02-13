@@ -1,0 +1,25 @@
+<!docktype html>
+<html>
+    <head>
+        Main App
+    </head>
+    <body>
+
+        <div ng-app="main">
+            {{3 + 2}}
+
+            <greetings message="'as a part of main app'">
+            </greetings>
+
+            <analytics data="'some kind of data'"></analytics>
+        </div>
+
+        <script src="../bower_components/angular/angular.min.js"></script>
+        <script src="../bower_components/shared/dist/shared.js"></script>
+        <script src="../bower_components/moduleA/dist/moduleA.js"></script>
+        <script src="../bower_components/moduleB/dist/moduleB.js"></script>
+        <script src="app.js"></script>
+        <!--<script src="congradulatoryBanner/congradulatoryBaner.js"></script>-->
+
+    </body>
+</html>
