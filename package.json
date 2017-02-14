@@ -21,12 +21,15 @@
   "homepage": "https://github.com/Abhay-Joshi-Git/ng1-main-app#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-cli": "^1.2.0",
     "grunt-angular-templates": "^1.1.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^2.1.0",
+    "grunt-usemin": "^3.1.1",
     "load-grunt-tasks": "^3.5.2",
-    "serve-static": "^1.11.2"    
+    "serve-static": "^1.11.2"
   }
 }
